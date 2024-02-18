@@ -28,10 +28,10 @@ header {
 }
 
     .profile img {
-        width: 400px; /* Ajusta el tamaño según tus preferencias */
-        height: 400px; /* Ajusta el tamaño según tus preferencias */
+        width: 400px; 
+        height: 400px; 
         border-radius: 50%;
-        align-items: center; /* Cambiado de 'space-around' a 'flex-start' */
+        align-items: center; 
     }
 
 .profile-info {
@@ -53,11 +53,12 @@ header {
     .profile {
         flex-direction: column;
         align-items: center;
+        margin-top: -10px;
     }
 
         .profile img {
-            width: 150px; /* Ajusta el tamaño para pantallas más pequeñas */
-            height: 150px; /* Ajusta el tamaño para pantallas más pequeñas */
+            width: 250px; 
+            height: 250px;
             margin-bottom: 10px;
         }
 
